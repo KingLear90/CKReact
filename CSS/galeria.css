@@ -1,0 +1,416 @@
+.galeria-body {
+    margin: 0;
+    font-family: "study-variable",sans-serif;
+    text-align: center;
+    align-items: center;
+    background: rgb(233, 234, 230); 
+}
+
+.galeria-body .navbar {
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+.galeria-body #galeria a{
+    border-left: 3px solid rgb(232, 189, 58);
+    padding: 3px;
+} 
+
+.galeria-body #namePage{
+    margin-left: 3px;
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+#c:hover,
+#h:hover,
+#e:hover,
+#s:hover,
+#k:hover,
+#i:hover,
+#n:hover,
+#g:hover,
+#d:hover,
+#o:hover,
+#m:hover{
+    color: white;
+    text-shadow: 0 0 7px whitesmoke;
+}
+
+.galeria-body .navbar a {
+    font-family: "study-variable",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+.galeria-body .navbar a:hover {
+    transition-property: font-size;
+    transition-property: border-bottom;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    font-size: 21px;
+    border-bottom: 2px solid whitesmoke;
+    border-left: none !important;
+}
+
+.galeria-body .galeria h2{
+    text-align: justify;
+    margin: 2%;
+}
+
+.galeria-body .campeones{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5% 2%;
+    gap: 2.5%;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+
+.galeria-body .imagen{
+    border: 2px solid #476ae592;
+    transform: 0.5 ease;
+    margin-bottom: 2.0%;
+}
+
+.galeria-body .galeria .campeones .imagen:hover{
+    border:none;
+    transform: scale(1.1);
+}
+
+.galeria-body #champs-list{
+    display: none;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+    line-height: 2.1;
+    margin-bottom: 7%;
+}
+
+.galeria-body #champs-list span{
+    font-size: larger;
+}
+
+.galeria-body h3{
+    margin-bottom: 3%;
+}
+
+.galeria-body #own-gallery {
+    display: none;
+}
+
+.galeria-body #gallery-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;   
+}
+
+.galeria-body #gallery-container #titulo{
+    width: 25%;
+}
+
+.galeria-body textarea{
+    resize: none;
+    height: 100px;
+    width: 25%;
+}
+
+.galeria-body .addDelButtons  {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 1%;
+}
+
+.galeria-body #agregar-card {
+    background-color: rgb(68, 91, 241);
+    border: 0;
+    width: auto;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 3%;
+}
+
+.galeria-body #agregar-card:hover {
+    background-color: rgb(41, 65, 218);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.galeria-body #borrar-card {
+    background-color: #f33e53;
+    border: 0;
+    width: auto;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+
+.galeria-body #borrar-card:hover {
+    background-color: #f2223b;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.galeria-body #alerta-title {
+    color: #b3261e;
+    animation-name: change-size;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.galeria-body #alerta-description {
+    color: #b3261e;
+    animation-name: change-size;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes change-size {
+    0% {font-size: 14px;};
+    50%{font-size: 16px;};
+    100%{font-size: 14px;};
+}
+
+.galeria-body .image {
+    padding: 1%;
+    box-sizing: content-box;
+}
+
+.galeria-body .image:hover {
+    transform: scale(1.1);
+}
+
+.galeria-body .gallery-content {
+    margin: 1%;
+}
+
+.galeria-body .new-pics {
+    display: flex;
+    gap: 25px;
+    padding: 3%;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 320px) {
+
+    .galeria-body .navbar {
+        flex-direction: column;
+    }
+
+    .galeria-body .navbar a {
+        font-size: 14px;
+    }
+    
+    .galeria-body #namePage{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .galeria-body .galeria h2{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .galeria-body h5{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .galeria-body .campeones{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 5% 2%;
+        gap: 2.5%;
+    }
+}
+
+
+@media screen and (min-width: 210px) and (max-width: 249px) {
+    
+    .galeria-body .navbar {
+        flex-direction: column;
+    }
+
+    .galeria-body #namePage{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .galeria-body .navbar a {
+        font-size: 14px;
+    }
+
+    .galeria-body .galeria h2{
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .galeria-body .campeones{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imagen{
+        width: 90%;
+        height: 200px;
+        border: 2px solid rgba(71, 106, 229, 0.572);
+        transform: 0.5 ease;
+        margin-bottom: 3.5%;
+    }
+
+    .galeria-body .galeria .campeones .imagen:hover{
+        transform: scale(1.18);
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 469px) {
+
+    .galeria-body .navbar {
+        flex-direction: column;
+    }
+
+    .galeria-body #namePage{
+        font-size: 25px;
+    }
+
+    .galeria-body .navbar a {
+        font-size: 17px;
+    }
+
+    .galeria-body .galeria h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .galeria-body .campeones{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        gap: 7%;
+    }
+
+    .galeria-body .galeria .campeones .imagen:hover{
+        transform: scale(1.18);
+    }
+}
+
+@media screen and (min-width: 470px) and (max-width: 524px) {
+    
+    .galeria-body .navbar {
+        flex-direction: column;
+    }
+
+    .galeria-body #namePage{
+        font-size: 25px;
+    }
+
+    .galeria-body .galeria h2{
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .galeria-body .campeones{
+        margin-left: auto;
+        margin-right: auto;
+        gap: 7%;
+        justify-content: center;
+    }
+
+    .galeria-body .campeones .imagen{
+        width: 40%;
+        height: 140px;
+    }
+}
+
+@media screen and (min-width: 525px) and (max-width: 669px) {
+
+    .galeria-body .navbar {
+        gap: 5%;
+    }
+
+    .galeria-body #namePage{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .galeria-body .galeria h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .galeria-body .campeones{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .galeria-body .campeones .imagen{
+        width: 30%;
+        height: 140px;
+    }
+
+    .galeria-body .galeria .campeones .imagen:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 669px) {
+
+    .galeria-body .navbar {
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 3%;
+        padding: 2%;
+    }
+
+    .galeria-body .galeria h2{
+        text-align: center;
+        margin: 2%;
+    }
+    
+    .galeria-body .campeones{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 2.5%;
+        justify-content: center;
+    }
+
+    .galeria-body .searchBox {
+        width: 10%;
+    }
+}
+
+
+
+

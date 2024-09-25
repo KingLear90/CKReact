@@ -1,0 +1,495 @@
+.main-body {
+    margin: 0;
+    font-family: "study-variable",sans-serif;
+    text-align: center;
+    align-items: center;
+    background: rgb(232, 239, 239);
+}
+
+.main-body .navbar {
+    background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main-body .navbar > div {
+    padding: 15px;
+}
+
+.main-body #home a{
+    border-left: 3px solid rgb(232, 189, 58);
+    padding: 3px;
+} 
+
+.main-body #namePage{
+    margin-left: 3px;
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+#c:hover,
+#h:hover,
+#e:hover,
+#s:hover,
+#k:hover,
+#i:hover,
+#n:hover,
+#g:hover,
+#d:hover,
+#o:hover,
+#m:hover{
+    color: white;
+    text-shadow: 0 0 7px whitesmoke;
+}
+
+.main-body .navbar a {
+    font-family: "study-variable",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+.main-body .navbar a:hover {
+    transition-property: font-size;
+    transition-property: border-bottom;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    font-size: 21px;
+    border-bottom: 2px solid whitesmoke;
+    border-left: none !important;
+}
+
+.main-body .principal img {
+    margin-top: 0.%;
+   margin-bottom: 0%;
+    height: 500px;
+}
+.main-body #slogan{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 15px;
+    font-style: italic;
+    justify-content: center;
+}
+
+.main-body .main-content {
+    background-color: #d7ddde;
+    width: 80%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.main-body .content {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    line-height: 200%;
+    width: 100%;
+    
+}
+
+.main-body .content li {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    line-height: 200%;
+    width: 100%;
+    
+}
+
+.main-body .content .name{
+    color:#2d8aed;
+}
+
+.main-body .pie {
+    background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    display: flex;  
+    font-weight: 400;
+    font-style: italic;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 399px) {
+
+    .main-body {
+        margin: 0;
+        padding: 0;
+        font-family: "study-variable",sans-serif;
+        text-align: center;
+        align-items: center;
+        background: rgb(232, 239, 239);
+    }
+
+    .main-body .navbar {
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-body .navbar a:hover {
+        transition-property: font-size, border-bottom;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        font-size: 17px;
+        border-bottom: 2px solid whitesmoke;
+        border-left: none !important;
+    }
+
+    .main-body .navbar > div {
+        margin-top: 2%;
+    }
+
+    .main-body #namePage{
+        font-size: 25px;
+        font-weight:bolder;
+    }
+
+    .main-body .navbar a {
+        font-family: "study-variable",sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+        text-shadow: 0 1 3px black;
+    }
+
+    .main-body #home a{
+        border-left: 3px solid rgb(232, 189, 58);
+    } 
+
+    .main-body #slogan h3{
+        font-size: 20px;
+    }
+    
+    .main-body #slogan{
+        width: 100%;
+        font-style: italic;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .main-body .content {   
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-body .content p {   
+        font-size: 18px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-body .content ul li{
+        font-size: 15px;
+        width: 88%;
+        align-items: center;
+        list-style: none;
+        line-height: 185%;
+    }
+
+    .main-body .content h5{
+        font-size: 17px;
+    }
+
+    .main-body .content .name{
+        color:#2d8aed;
+    }
+
+    .main-body .pie {
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+        font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        font-size: 14px;
+        display: flex;  
+        font-weight: 900;
+        justify-content: space-around;
+        padding: 1%;
+    }
+
+}
+
+@media screen and (min-width: 400px ) and (max-width: 675px) {
+
+    .main-body {
+        margin: 0;
+        padding: 0;
+        font-family: "study-variable",sans-serif;
+        text-align: center;
+        align-items: center;
+        background: rgb(232, 239, 239);
+    }
+
+    .main-body .navbar {
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-body .navbar div{
+        text-align: center;
+        padding: 15px;
+    }
+    .main-body .navbar #namePage{
+        justify-content: center;
+        width: 100%
+    }
+
+    .main-body #home a{
+        border-left: 3px solid rgb(232, 189, 58);
+        padding: 3px;
+    } 
+
+    .main-body #namePage{
+        margin-left: 3px;
+        font-size: 40px;
+        font-weight:bolder;
+    }
+    
+    #c:hover,
+    #h:hover,
+    #e:hover,
+    #s:hover,
+    #k:hover,
+    #i:hover,
+    #n:hover,
+    #g:hover,
+    #d:hover,
+    #o:hover,
+    #m:hover{
+        color: white;
+        text-shadow: 0 0 7px whitesmoke;
+    }
+
+    .main-body .navbar a {
+        font-family: "study-variable",sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-body .navbar a:hover {
+        transition-property: font-size;
+        transition-property: border-bottom;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        font-size: 21px;
+        border-bottom: 2px solid whitesmoke;
+        border-left: none !important;
+    }
+
+
+
+    .main-body #slogan h3{
+        width: 100%;
+        font-style: italic;
+        justify-content: center;
+    }
+
+    .main-body .content {   
+        margin: 6% 2%;
+        align-items: center;
+    }
+
+    .main-body .content ul li{
+        list-style: none;
+        line-height: 200%;
+    }
+
+    .main-body .content .name{
+        color:#2d8aed;
+    }
+
+    .main-body .pie {
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+        font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        font-size: 14px;
+        display: flex;  
+        font-weight: 900;
+        justify-content: space-around;
+        padding: 1%;
+    }
+
+}
+
+@media screen and (min-width: 676px) {
+
+    .main-body {
+        margin: 0;
+        font-family: "study-variable",sans-serif;
+        text-align: center;
+        align-items: center;
+        background: rgb(232, 239, 239);   
+    }
+
+    .main-body .navbar {
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);   
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-body .navbar > div {
+        padding: 15px;
+    }
+
+    .main-body #home a{
+        border-left: 3px solid rgb(232, 189, 58);
+        padding: 3px;
+    } 
+
+    .main-body #namePage{
+        margin-left: 3px;
+        font-size: 40px;
+        font-weight:bolder;
+        position: absolute;
+        animation-name: move;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes move {
+        from {
+            left: 0%;
+        }
+        to {
+            left: 50%;
+        }
+    }
+
+    .main-body #k {
+        animation-name: kWhite;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+    }
+
+    @keyframes kWhite {
+        from {
+            left: 0%;
+            color: white;
+            text-shadow: 0 0 5px whitesmoke;
+        }
+        to {
+            left: 50%;
+            color: black;
+            text-shadow: none;
+        }
+    }
+
+    .main-body #m {
+        animation-name: mWhite;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        animation-delay: 2.3s;
+    }
+
+    @keyframes mWhite {
+        from {
+            left: 0%;
+            color: white;
+            text-shadow: 0 0 5px whitesmoke;
+        }
+        to {
+            left: 50%;
+            color: black;
+            text-shadow: none;
+        }
+    }
+
+    
+    
+    #c:hover,
+    #h:hover,
+    #e:hover,
+    #s:hover,
+    #k:hover,
+    #i:hover,
+    #n:hover,
+    #g:hover,
+    #d:hover,
+    #o:hover,
+    #m:hover{
+        color: white !important;
+        text-shadow: 0 0 7px whitesmoke !important;
+    }
+
+    .main-body .navbar a {
+        font-family: "study-variable",sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-body .navbar a:hover {
+        transition-property: font-size;
+        transition-property: border-bottom;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        font-size: 21px;
+        border-bottom: 2px solid whitesmoke;
+        border-left: none !important;
+    }
+
+    .main-body #slogan{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; 
+        font-style: italic;
+        justify-content: center;
+    }
+
+    .main-body .content {   
+        margin: 3% 2%;
+        align-items: center;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 100%
+    }
+
+    .main-body .content ul li{
+        list-style: none;
+        line-height: 200%;
+    }
+
+    .main-body .content .name{
+        color:#2d8aed;
+    }
+
+    .main-body .pie {
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+        font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        display: flex;  
+        font-weight: 400;
+        font-style: italic;
+        justify-content: space-between;
+        padding: 1%;
+    }
+
+    .main-body #liveTitle {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .main-body  #liveTitle a{
+        color: blue;
+        text-decoration: none;
+    }
+
+}
