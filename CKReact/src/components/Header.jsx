@@ -1,12 +1,15 @@
-export default function Header() {
+export default function Header(link) {
+
+    const menuOptions = ['Home', 'Aprendizaje', 'Galería', 'Contacto']
+    const links = ["#Home", "#Aprendizaje", "#Galeria", "#Contacto"]
+
     return (
-            <header className="encabezado">
-                <div>ChessKindom</div>
-                <div>Home</div>
-                <div>Aprendizaje</div>
-                <div>Galería</div>
-                <div>Contacto</div>
-            </header>
+        <div id='header'>
+            <h1>ChessKingdom</h1>
+            <ul>
+                {menuOptions.map(option => <a href="#">{option}</a>)}
+            </ul>
+        </div>        
     );
 }
 
