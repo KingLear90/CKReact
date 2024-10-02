@@ -1,0 +1,10 @@
+.foot {
+    background: linear-gradient(180deg, #519bfb, #6294d1c9);  
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 14px;
+    display: flex;  
+    font-weight: 400;
+    justify-content: space-around;
+    padding: 1%;
+    margin-top: auto;
+}
