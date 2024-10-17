@@ -1,7 +1,7 @@
-.main-logo{
-    margin-top: 0.%;
-   margin-bottom: 0%;
-    height: 200px;
+.home-container {
+    margin: 0 auto;
+    width: 21em;
+    text-align: center;
 }
 
 #motto {

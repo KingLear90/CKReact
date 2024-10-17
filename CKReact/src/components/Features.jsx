@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function Features({ features }) {
     
@@ -10,5 +11,9 @@ function Features({ features }) {
     </ul>
     )
 };
+
+Features.propTypes = {
+  features: PropTypes.array.isRequired,   // 'features' debe ser un array y es obligatorio.
+}
 
 export default Features

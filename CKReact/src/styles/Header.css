@@ -1,12 +1,19 @@
 .navbar {
     background: linear-gradient(180deg, #519bfb, #6294d1c9);  
     display: flex;
+    align-items: center;
+    overflow:auto;
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 0.5em;
-    color: #ffffff;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: white;
+    text-shadow: 0 0 7px whitesmoke;
 }
 
 .nav-link {
