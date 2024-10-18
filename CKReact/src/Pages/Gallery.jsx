@@ -1,8 +1,7 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 import App from '../App';
-import Campeones from '../Components/Campeones';
-import ChampsApi from '../Components/ChampsApi';
+import Campeones from '../components/Campeones';
+
 
 function Gallery() {
   const campeonesList = [
