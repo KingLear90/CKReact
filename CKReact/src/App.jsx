@@ -8,6 +8,7 @@ import './styles/Home.css';
 import './styles/Learn.css';
 import './styles/Gallery.css';
 import './styles/Contact.css';
+import './styles/NotFound.css'
 import Header from './components/Header';
 import Footer from './Components/Footer';
 

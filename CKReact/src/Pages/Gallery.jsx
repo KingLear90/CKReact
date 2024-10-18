@@ -1,6 +1,8 @@
-import React from 'react'
-import App from '../App'
-import Campeones from '../Components/Campeones'
+import React from 'react';
+import { useState, useEffect } from 'react';
+import App from '../App';
+import Campeones from '../Components/Campeones';
+import ChampsApi from '../Components/ChampsApi';
 
 function Gallery() {
   const campeonesList = [
@@ -166,6 +168,9 @@ function Gallery() {
         <h6>De izquierda a derecha y de arriba hacia abajo, los 17 campeones mundiales.</h6>
         <div className='gallery-container'>
           <Campeones campeonesList={campeonesList} />
+          <div>
+          <ChampsApi /> 
+          </div> 
         </div>
       </div>
       

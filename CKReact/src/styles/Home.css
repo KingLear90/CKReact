@@ -4,9 +4,17 @@
     text-align: center;
 }
 
+.mainContain {
+    background: #d7ddde;
+    width: 95%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #motto {
-    margin: 1em auto;
-    width: 318px;
+    margin: 0 auto;
+    width: 60%;
     font-size: 1rem;
     line-height: 1.5em;
 }
@@ -16,5 +24,5 @@
 }
 
 .offer{
-    margin-top: 3%;
+    margin-top: 6%;
 }

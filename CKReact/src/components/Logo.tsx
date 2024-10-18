@@ -4,13 +4,13 @@ import React from 'react'
  interface LogoProps {
     src: string;
     alt: string;
-    imgSize: number;
+    width: string;
 }
 
-function Logo ({ src, alt, imgSize } : LogoProps) {
+function Logo ({ src, alt, width } : LogoProps) {
     return (
         <div className='logo'>
-            <img src={src} alt={alt} width={imgSize}/>
+            <img src={src} alt={alt} width={width}/>
         </div>
     );
 };
