@@ -4,7 +4,7 @@ function Footer( ) {
     return (
         <footer className="foot">
           <div>
-            <p>© 2024 ChessKingdom. All rights reserved.</p>
+            <p>© 2024 ChessKingdom. <a href='https://www.termsfeed.com/live/06023188-f3d8-4c45-92f5-13ec35c93ec5' className='rights'>Privacy Policy</a></p>
           </div>
           <div>
             <a href="https://github.com/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="purple" className="bi bi-github" viewBox="0 0 16 16">
