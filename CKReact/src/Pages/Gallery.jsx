@@ -1,6 +1,7 @@
 import React from 'react';
 import App from '../App';
-import Campeones from '../components/Campeones';
+import Campeones from '../Components/Campeones';
+import ChampsApi from '../Components/ChampsApi';
 
 
 function Gallery() {
@@ -168,6 +169,7 @@ function Gallery() {
         <div className='gallery-container'>
           <Campeones campeonesList={campeonesList} />
           <div>
+            <ChampsApi />
           </div> 
         </div>
       </div>

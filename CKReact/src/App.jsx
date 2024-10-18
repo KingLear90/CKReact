@@ -10,7 +10,7 @@ import './styles/Gallery.css';
 import './styles/Contact.css';
 import './styles/NotFound.css'
 import Header from './components/Header';
-import Footer from './Components/Footer';
+import Footer from './components/Footer';
 
 function App( { children } ) {
 
