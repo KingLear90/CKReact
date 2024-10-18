@@ -1,6 +1,6 @@
 import React from 'react'
 import App from '../App'
-import Cards from '../Components/Cards'
+import Cards from '../components/Cards'
 
 function Learn() {
 
