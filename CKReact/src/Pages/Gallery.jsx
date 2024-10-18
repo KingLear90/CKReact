@@ -169,11 +169,9 @@ function Gallery() {
         <div className='gallery-container'>
           <Campeones campeonesList={campeonesList} />
           <div>
-          <ChampsApi /> 
           </div> 
         </div>
       </div>
-      
     </App>
   )
 }
