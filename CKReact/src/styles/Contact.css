@@ -21,3 +21,10 @@ input, select, textarea, .form-select {
     margin: 0.2em auto;
     text-align: center;
 }
+
+.formButtonContainer {
+    display: flex;
+    align-items: center;
+    margin: 0.5em auto;
+    gap: 0.5em;
+}

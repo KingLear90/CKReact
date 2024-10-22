@@ -1,7 +1,7 @@
-import React from 'react'
-import Features from '../Components/Features'
-import Logo from '../components/Logo'
-import App from '../App'
+import React from 'react';
+import Features from '../Components/Features';
+import Logo from '../components/Logo';
+import App from '../App';
 function Home () {
   let features: string[] = [      // variable features tipada para que solo pueda ser un array que reciba elementos tipo string. 
     "Fundamentos del ajedrez",

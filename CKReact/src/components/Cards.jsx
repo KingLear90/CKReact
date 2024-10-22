@@ -1,6 +1,6 @@
-import React from 'react'
-import { useState } from 'react'  
-import PropTypes from 'prop-types'
+import React from 'react';
+import { useState } from 'react';  
+import PropTypes from 'prop-types';
 
 
 function Cards( { cardsItems } ) {
@@ -20,6 +20,7 @@ function Card({ cardData }) {
 
   const handleCardClick = () => {
     setIsClicked(true);
+    setTimeout(() => {setIsClicked(false)}, 1700);
   };
 
   return (

@@ -1,5 +1,5 @@
-import React from 'react'
-import App from '../App'
+import React from 'react';
+import App from '../App';
 import Cards from '../Components/Cards';
 import BestMoveApi from '../components/BestMoveApi';
 function Learn() {

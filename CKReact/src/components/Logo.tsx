@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
  // Interfaz para especificar los props que espera el componente (para renderizar imagen principal)
  interface LogoProps {
