@@ -1,5 +1,10 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .imgs {
-    height: 13em;
+    height: 12em;
 }
 
 .cardItem {
@@ -7,7 +12,7 @@
     align-items: center;
     margin-left:auto;
     margin-right: auto;
-    width: 90%;
+    width: 18em;
     border-radius: 1%;
     margin-bottom: 3em;
     padding: 0.5em 0em;
@@ -31,7 +36,7 @@
     justify-content: center;
     box-shadow: 2px 2px 0px 0px black;
     border-radius: 0.7em;
-    height: 5%;
+    height: 2em;
     margin-bottom: 0.5em;
 }
 
@@ -42,16 +47,27 @@
     color: white;
 }
 
-.notif{
+.notif {
     display: flex;
     justify-content: center;
     color: #0ea849f2;
         animation-name: change-size;
         animation-duration: 2s;
         animation-iteration-count: 2;
-    }
-    @keyframes change-size {
+}
+
+@keyframes change-size {
         0% {font-size: 14px}
         50% {font-size: 16px}
         100% {font-size: 14px}
+}
+
+@media screen and (min-width: 733px) {
+    .card-container {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1.5em;
     }
+        
+}
+  

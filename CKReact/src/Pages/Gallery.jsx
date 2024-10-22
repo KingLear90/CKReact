@@ -164,8 +164,8 @@ function Gallery() {
   return (
     <App>
       <div className="gallery">
-        <h4 className="gallery-title">Galería de campeones</h4>
-        <h6>De izquierda a derecha y de arriba hacia abajo, los 17 campeones mundiales.</h6>
+        <h4 className="galleryTitle">Galería de campeones</h4>
+        <h6 className='gallerySubtitle'>Estos son, del primero a la actualidad, los 17 campeones mundiales: </h6>
         <div className='gallery-container'>
           <Campeones campeonesList={campeonesList} />
           <div>

@@ -17,24 +17,22 @@ function ChampsApi () {
             };
         fetchData();
         }, []);
-    
 
     const handleClickGallery = () => {
         setShowChampions(true);
         showChampions ? setShowChampions(false) : setShowChampions(true);
-        !showChampions ? btnInfo.textContent = 'OCULTAR INFO' : 'VER INFO';
+        !showChampions ? btnInfo.textContent = 'OCULTAR INFO' : btnInfo.textContent = 'VER INFO';
     }
-  
 
   return (
     <div>
-      <p>Si deseas conocer información de los campeones...</p>
+      <h5 id="getInfo">Si deseas conocer información de los campeones...</h5>
       <button className='info-btn' onClick={handleClickGallery}>VER INFO</button>
       {showChampions && (
         <div>
           {campeones.map((campeon) => (
             <div className='champions-Info' key={campeon.id}>
-              {`${campeon.firstName} ${campeon.lastName} fue Campeón Mundial de Ajedrez durante el período: ${campeon.worldChampion}`}
+              {` ${campeon.numChampion}: ${campeon.firstName} ${campeon.lastName}. ${campeon.description}. Campeón durante: ${campeon.worldChampion}.`}
             </div>
           ))}
         </div>

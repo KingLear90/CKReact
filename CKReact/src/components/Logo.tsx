@@ -6,7 +6,6 @@ import React from 'react'
     alt: string;
     width: string;
 }
-
 function Logo ({ src, alt, width } : LogoProps) {
     return (
         <div className='logo'>

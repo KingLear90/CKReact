@@ -9,20 +9,61 @@
     margin: 0.5em auto;
 }
 
+.galleryTitle {
+    font-family: 'Permanent Marker', sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+}
+
+.gallerySubtitle {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
 .champions-img img {
     border-radius: 50%;
 }   
 
 .champions-img img:hover {
-    border-radius: 46%;
+    border:3px solid #e157ee;
 }
 
+.playerName {
+    margin-top: 0.5em;
+    font-family: 'Happy Monkey';
+    font-weight: bold;
+    font-style: italic;
+}
+
+#getInfo { 
+    margin: 1em;
+}
 .champions-Info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
     width: 70%;
     margin-left:auto;
     margin-right: auto;
+    margin-bottom: 0.8em;
+    border: 2px solid #3299cc;
+    padding: 0.5em;
+}
+.info-btn {
+    border-radius: 8px;
+    border: none;
+    color: #f9f9f9;
+    background: #3299cc;
+    font-weight: 500;
+    margin: 1em;
+    padding: 0.4em; 
+}
+
+.info-btn:hover {
+    transform: scale(1.1);
+    color: #f9f9f9;
 }

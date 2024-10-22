@@ -1,0 +1,23 @@
+.formLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1em auto;
+}
+
+.alert {
+    color: rgb(118, 9, 186);
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 0;
+}
+
+
+input, select, textarea, .form-select {
+    border: 1px solid black;
+    border-radius: 0.4em;
+    width: 18.7em;
+    margin: 0.2em auto;
+    text-align: center;
+}
