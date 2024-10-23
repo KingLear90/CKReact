@@ -20,6 +20,15 @@
 }
 
 .logo404{
-    margin: 3% 3%;
+    margin: 2% 3%;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .logo404 {
+       width: 80%;
+    }
 }
 

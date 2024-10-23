@@ -20,7 +20,7 @@ function Card({ cardData }) {
 
   const handleCardClick = () => {
     setIsClicked(true);
-    setTimeout(() => {setIsClicked(false)}, 1700);
+    setTimeout(() => {setIsClicked(false)}, 2000);
   };
 
   return (
@@ -36,7 +36,7 @@ function Card({ cardData }) {
       <button className='learn-btn' onClick={handleCardClick}>
         CONOCER MÁS
       </button>
-      {isClicked && <p className='unavailable'>Sección disponible en breve...</p>}
+      {isClicked && <h4 className='unavailable'>Sección disponible en breve...</h4>}
     </div>
   );
 }
