@@ -6,14 +6,23 @@ function Features({ features }) {
   return (
     <ul>
        {features.map(feature => 
-        <li className='features-list' key={feature}>{feature}</li>    // Se genera una key única propia de cada item.
+        <li key={feature} className='features-list'>    {/* Se genera una key única propia de cada item. */}
+          <div className='elements'>
+            {feature.title} {feature.src}
+          </div>
+        </li> 
        )}
     </ul>
     )
 };
 
 Features.propTypes = {
-  features: PropTypes.array.isRequired,   // 'features' debe ser un array y es obligatorio.
-}
+  features: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      src: PropTypes.isRequired,
+    })
+  ).isRequired,
+};
 
 export default Features
